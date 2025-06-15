@@ -87,21 +87,7 @@ const EventsPage: React.FC = () => {
             )}
 
             {/* More events callout */}
-            <div className="mt-16 bg-white p-8 rounded-lg shadow-md text-center">
-              <h3 className="font-montserrat font-bold text-2xl text-navy-700 mb-4">
-                Want to Host or Sponsor an Event?
-              </h3>
-              <p className="font-lato text-gray-700 mb-6 max-w-3xl mx-auto">
-                We're always looking for partners and sponsors to help us create more impactful events.
-                If you're interested in collaborating with us, please get in touch.
-              </p>
-              <a
-                href="/#contact"
-                className="inline-block bg-accent-500 hover:bg-accent-600 text-white font-lato py-3 px-6 rounded-md transition-colors"
-              >
-                Contact Us
-              </a>
-            </div>
+            
           </div>
         </div>
       </div>

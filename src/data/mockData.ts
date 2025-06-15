@@ -1,22 +1,67 @@
 import { EventType, TestimonialType, GalleryItemType, SocialLinkType } from '../types';
 import { Facebook, Instagram, Twitter, Youtube, Linkedin } from 'lucide-react';
 import ScholarshipImage from '../assets/education-scholarship/2021/scholatship/E-Aug-26.jpg';
+import ScholarshipImage1 from '../assets/education-scholarship/2022/K Aug-23.jpg';
+import ScholarshipImage2 from '../assets/education-scholarship/2022/K2 Aug-23.jpg';
+import ScholarshipImage3 from '../assets/education-scholarship/2022/K3 Aug-23.jpg';
+import ScholarshipImage4 from '../assets/education-scholarship/2023/K Oct-23.jpg';
+import ScholarshipImage5 from '../assets/education-scholarship/2023/K2 Oct -23.jpg';
+import ScholarshipImage6 from '../assets/education-scholarship/2023/K3 Oct-23.jpg';
+
 import hostelimage from '../assets/education-scholarship/2021/hostel-for-poor/K-Nov-22.jpg';
 import hostelimagetwo from '../assets/education-scholarship/2021/hostel-for-poor/K1-Nov-22.jpg';
 import hostelimagethree from '../assets/education-scholarship/2021/hostel-for-poor/NS-Nov-23.jpg';
+import hostelimagefour from '../assets/education-scholarship/2025/hostel/K1 25 feb.jpg';
+import hostelimagefive from '../assets/education-scholarship/2025/hostel/K2 Feb 25.jpg';
+import hostelimagesix from '../assets/education-scholarship/2025/hostel/Ns Feb-25.jpg';
+
+
+import orphanhelp from '../assets/education-scholarship/2021/orphan-education/NS Sep-9.jpg';
+
+import bloodDonation from '../assets/blood-donation/2024/Raktdaan 9 sep.jpg';
+import bloodDonation1 from '../assets/blood-donation/2024/Raktdaan1.jpg';
+
+import clothDistribution from '../assets/clothes-distribution/FV Aug-7.jpg';
+import clothDistribution1 from '../assets/clothes-distribution/FV2 Aug-7.jpg';
+import clothDistribution2 from '../assets/clothes-distribution/FV3 Aug-7.jpg';
+import clothDistribution3 from '../assets/clothes-distribution/FV4 Aug-7.jpg';
+
+import floodHelp from '../assets/flood-help/2021/FLOOD HELP.jpg';
+
+import foodCamp from '../assets/food distribution/2020/LD April-28.jpg';
+import foodCamp1 from '../assets/food distribution/2020/LD2 April-28.jpg';
+import foodCamp2 from '../assets/food distribution/2021/FV Aug-3.jpg';
+import foodCamp3 from '../assets/food distribution/2021/FV June-16.jpg';
+import foodCamp4 from '../assets/food distribution/2021/FV2 June-16.jpg';
+import foodCamp5 from '../assets/food distribution/2021/TC June-16.jpg';
+import foodCamp6 from '../assets/food distribution/2022/FV July-16.jpg';
+
+import healthcheckup from '../assets/free-health-checkups/2024/K1 13 march.jpg';
+import healthcheckup1 from '../assets/free-health-checkups/2024/K1 1jan.jpg';
+import healthcheckup2 from '../assets/free-health-checkups/2024/NS 13 march.jpg';
+
+import freeStudyRoom from '../assets/free-study-rooms/2023/E Feb-4.jpg'
+
+import vaccination from '../assets/vaccination/2021/K Aug-26.jpg'
 
 export const events: EventType[] = [
   {
     id: '1',
     title: 'Scholarship for Underprivileged Students',
-    date: 'November 2021',
+    date: 'August 2021, August 2022, Ocotber 2023 & February 2025',
     shortDescription: 'Scholarship provided for various higher education courses.',
-    description: 'Shree Sai Education Trust has organized a special scholarship program aimed at supporting economically weaker students who aspire to pursue higher education. This initiative is designed to offer a golden opportunity to deserving students who are currently studying in the 10th or 11th grade and have secured at least 75% marks. The scholarship will be applicable for students seeking admission to various professional and higher education courses such as Engineering, LLM, ME, M.Phil., BAMS, BHMS, Architecture, MBA, MBBS, and Pharmacy. The aim is to ease the financial burden of education for students with potential and dedication. Special preference will be given to students who have lost their parents due to COVID-19, orphans, girls from families with single or working mothers, and children from farmer families. These students will be given priority consideration during the selection process. Interested candidates can collect the scholarship application forms from the office located at Rahul Complex, 6th Floor, Office No. 41, Paud Road, Kothrud, Pune – 38. The forms will be available until 23rd August. For more information or assistance, you can contact Mr. Nitin Majhi at 9665565434, Mr. Sunil Shirose at 9049865434, or Mr. Sunil Shinde at 9663879992. The number of forms is limited, so students are encouraged to apply as soon as possible to take advantage of this valuable opportunity.',
+    description: 'Shree Sai Education Trust has launched a scholarship program for economically disadvantaged students in 10th/11th grade with 75%+ marks seeking higher education in professional courses including Engineering, LLM, ME, M.Phil., BAMS, BHMS, Architecture, MBA, MBBS, and Pharmacy. Priority given to COVID orphans, children of single mothers, and farming families. Application forms available until August 23rd at Rahul Complex, Paud Road, Kothrud, Pune-38. Contact: Nitin Majhi (9665565434), Sunil Shirose (9049865434), or Sunil Shinde (9663879992).',
     coverImage: ScholarshipImage,
     gallery: [
-      ScholarshipImage
+      ScholarshipImage,
+      ScholarshipImage1,
+      ScholarshipImage2,
+      ScholarshipImage3,
+      ScholarshipImage4,
+      ScholarshipImage5,
+      ScholarshipImage6
     ],
-    location: 'Pune, India',
+    location: '',
     category: 'education'
   },
   {
@@ -29,11 +74,131 @@ export const events: EventType[] = [
     gallery: [
       hostelimage,
       hostelimagetwo,
-      hostelimagethree
+      hostelimagethree,
+      hostelimagefour,
+      hostelimagefive,
+      hostelimagesix
     ],
-    location: 'Community Learning Center, East District',
+    location: 'Panshet, Pune, India',
     category: 'education'
-  }
+  },
+  {
+    id: '3',
+    title: 'Educational Aid for COVID-Orphaned Students',
+    date: 'September 2021',
+    shortDescription: 'Shri Sai Education Trust has extended educational support to 23 students who lost their parents due to COVID-19, providing each with ₹25,000 to aid in their higher education journey.',
+    description: 'In a compassionate initiative, Shri Sai Education Trust has come forward to support 23 students who lost their parents during the COVID-19 pandemic by offering financial aid of ₹25,000 each to help them pursue higher education. This philanthropic gesture was recognized during a program held in Kolhapur, where MLA Ulhas Mohite and other dignitaries, including Chandrakant Maharaj Wanjale and various local leaders, participated. The initiative, led by the trust’s president Swapnil Wanjale and team, reflects a commitment to social responsibility and educational empowerment. The event saw active participation from several notable personalities who encouraged students to overcome their hardships and move forward with confidence in their academic journey',
+    coverImage: orphanhelp,
+    gallery: [
+      orphanhelp
+    ],
+    location: 'Kolhapur, India',
+    category: 'education'
+  },
+  {
+    id: '4',
+    title: 'Blood Donation Camp',
+    date: 'Spetember 2024',
+    shortDescription: 'Shri Sai Education Trust, Pune organized a grand blood donation camp on the birthday of Mr. Sagar Shedge to promote the noble cause of saving lives through blood donation.',
+    description: 'To mark the birthday of Mr. Sagar Shedge, Shri Sai Education Trust, Pune organized a grand blood donation camp on Sunday, 8th September 2024, from 9 AM to 1 PM. The event was held at Utsav Mangal Karyalaya, near Kinara Hotel, Paud Road, Kothrud. The initiative was inaugurated by Mr. Rajendra Kondhare, President of Akhil Bharatiya Maratha Mahasangh, and Mr. Chandrakant Maharaj Wanjale. Emphasizing the message that donating blood is the highest form of charity as it saves lives, the organizers urged people to avoid bringing cake or gifts and instead participate in blood donation. The event was supported by a team of dignitaries including Dattatray Kakde, Sadanand Nandhe, Nilesh Sapkal, Santosh Nandhe, Sharad Rode, and Shrikant Pachpute, who collectively ensured the success of this noble cause.',
+    coverImage: bloodDonation,
+    gallery: [
+      bloodDonation,
+      bloodDonation1
+    ],
+    location: 'Kolhapur, India',
+    category: 'health'
+  },
+  {
+    id: '5',
+    title: 'Cloth & Ration Distribution Camp',
+    date: 'August 2024',
+    shortDescription: 'Shri Sai Education Trust, Pune organized a grand blood donation camp on the birthday of Mr. Sagar Shedge to promote the noble cause of saving lives through blood donation.',
+    description: 'To mark the birthday of Mr. Sagar Shedge, Shri Sai Education Trust, Pune organized a grand blood donation camp on Sunday, 8th September 2024, from 9 AM to 1 PM. The event was held at Utsav Mangal Karyalaya, near Kinara Hotel, Paud Road, Kothrud. The initiative was inaugurated by Mr. Rajendra Kondhare, President of Akhil Bharatiya Maratha Mahasangh, and Mr. Chandrakant Maharaj Wanjale. Emphasizing the message that donating blood is the highest form of charity as it saves lives, the organizers urged people to avoid bringing cake or gifts and instead participate in blood donation. The event was supported by a team of dignitaries including Dattatray Kakde, Sadanand Nandhe, Nilesh Sapkal, Santosh Nandhe, Sharad Rode, and Shrikant Pachpute, who collectively ensured the success of this noble cause.',
+    coverImage: clothDistribution3,
+    gallery: [
+      clothDistribution,
+      clothDistribution1,
+      clothDistribution2,
+      clothDistribution3  
+    ],
+    location: 'Kolhapur, India',
+    category: 'Distribution Camp'
+  },
+  {
+    id: '6',
+    title: 'Flood Relief Camp',
+    date: 'August 2024',
+    shortDescription: 'Shree Sai Education Trust, Pune launched a humanitarian aid drive titled "Ek Haath Maanuski Cha" to help flood-affected people in Satara, Sangli, Kolhapur, Chiplun, and Raigad by collecting and distributing essential supplies.',
+    description: 'In response to the devastating floods that severely impacted Satara, Sangli, Kolhapur, Chiplun, and Raigad districts, Shree Sai Education Trust, Pune initiated a compassionate relief campaign titled "Ek Haath Maanuski Cha" (A Hand of Humanity). The trust appealed to the public to donate essential supplies including clothes, water bottles, biscuits, groceries, bedding items (mattresses, bedsheets, blankets), utensils, womens wear, baby food, medicines, grains, pulses, oil, salt, sanitary pads, tea powder, and sugar. The campaign emphasizes collective action and kindness, with multiple helpline numbers and bank details provided for support and contributions. The initiative reflects the trust’s commitment to extending a helping hand to those in dire need during natural calamities.',
+    coverImage: floodHelp,
+    gallery: [
+      floodHelp 
+    ],
+    location: 'Kolhapur, India',
+    category: 'Flood Relief Camp'
+  },   
+  {
+    id: '7',
+    title: 'Ration Distribution Camp',
+    date: 'August 2024',
+    shortDescription: 'Shree Sai Education Trust, Pune organized a large-scale food distribution drive to provide freshly cooked meals and essential groceries to underprivileged families and daily wage earners affected by economic hardships.',
+    description: 'As part of its ongoing commitment to social welfare, Shree Sai Education Trust, Pune launched a Food Distribution Campaign to support underprivileged families, migrant workers, and daily wage earners who are struggling due to economic challenges. The initiative provided freshly cooked meals, grocery kits, and hygiene essentials to hundreds of families across various urban and rural areas. Volunteers from the trust worked tirelessly to ensure safe packaging, distribution, and delivery of food to those who needed it most. The campaign emphasized compassion, dignity, and community responsibility — encouraging citizens to contribute generously and support the cause. The trust also welcomed donations in the form of ration items, food grains, pulses, oil, packaged food, and monetary contributions, offering transparent banking details for donors.',
+    coverImage: foodCamp6,
+    gallery: [
+      foodCamp,
+      foodCamp1,
+      foodCamp2,
+      foodCamp3,
+      foodCamp4,
+      foodCamp5,
+      foodCamp6 
+    ],
+    location: 'Kolhapur, India',
+    category: 'Distribution Camp'
+  },   
+  {
+    id: '8',
+    title: 'Subsidized Health Check-up Camp',
+    date: 'August 2024',
+    shortDescription: 'Shree Sai Education Trust, Pune organized a comprehensive health check-up camp at a highly subsidized rate, offering critical diagnostic tests to promote early detection and better public health.',
+    description: 'To promote preventive healthcare and early diagnosis, Shree Sai Education Trust, Pune conducted a New Year Health Check-Up Camp offering a bundle of essential medical tests at just ₹300, a steep discount from the regular lab price of ₹1500. The initiative aimed at making healthcare accessible and affordable for all, especially the underprivileged. The diagnostic package included tests for OBC, ESR, HbA1C, PSA, Liver Function (LFT), Renal Function (RFT), Lipid Profile, Vitamin B/B12, and Urine Routine — covering major organ systems and nutrient levels. The camp was held at two locations over two days — on January 4 at Karvenagar, Pune and on January 5 at Paud Road, Kothrud. Hundreds benefited from expert consultation and testing facilities made available on-site. The trust once again showcased its commitment to community welfare by bridging gaps in public health access.',
+    coverImage: healthcheckup,
+    gallery: [
+      healthcheckup1,
+      healthcheckup,
+      healthcheckup2
+    ],
+    location: 'Kolhapur, India',
+    category: 'health'
+  },   
+  {
+    id: '9',
+    title: 'Free Study Room for Students',
+    date: 'August 2024',
+    shortDescription: 'Shree Sai Education Trust and Ramkrishna Pratishthan jointly organized a free study room facility for students of Classes 10 to 12, providing a disciplined and distraction-free environment to help them focus on their board exam preparation.',
+    description: 'Understanding the challenges students face in maintaining focus and discipline while preparing for critical board exams, Shree Sai Education Trust, Pune and Ramkrishna Pratishthan have launched a Free Study Room (Abhyasika) initiative for students of 10th to 12th standard. Separate time slots have been arranged for boys and girls, ensuring comfort and optimal study conditions. The initiative is designed to provide a quiet, structured environment to support consistent learning and preparation. Contact Numbers: 9168930540 / 9168428004',
+    coverImage: freeStudyRoom,
+    gallery: [
+      freeStudyRoom
+    ],
+    location: 'Kolhapur, India',
+    category: 'education'
+  }, 
+  {
+    id: '10',
+    title: 'Free Vaccination Camp in Kothrud',
+    date: 'August 2024',
+    shortDescription: 'Reliance Foundation and Shree Sai Education Trust jointly organized a free vaccination camp for the public in Kothrud, aiming to promote community health and prevent vaccine-preventable diseases.',
+    description: 'With a focus on public health and disease prevention, Reliance Foundation in collaboration with Shree Sai Education Trust organized a Free Vaccination Drive for residents of Kothrud, Pune. This initiative ensures that individuals, especially those from underprivileged backgrounds, have access to essential vaccines at no cost. The camp took place on Monday, 30th August 2021, and residents were requested to bring their Aadhar Card and phone number for registration.',
+    coverImage: vaccination,
+    gallery: [
+      vaccination
+    ],
+    location: 'Kolhapur, India',
+    category: 'health'
+  }, 
+
 ];
 
 export const testimonials: TestimonialType[] = [
@@ -106,27 +271,12 @@ export const galleryItems: GalleryItemType[] = [
 export const socialLinks: SocialLinkType[] = [
   {
     name: 'Facebook',
-    url: 'https://facebook.com',
+    url: 'https://www.facebook.com/people/Shri-Sai-Education-Trust-Pune/100054381076586/',
     icon: 'Facebook'
   },
   {
     name: 'Instagram',
-    url: 'https://instagram.com',
+    url: 'https://www.instagram.com/shedge506/',
     icon: 'Instagram'
   },
-  {
-    name: 'Twitter',
-    url: 'https://twitter.com',
-    icon: 'Twitter'
-  },
-  {
-    name: 'YouTube',
-    url: 'https://youtube.com',
-    icon: 'Youtube'
-  },
-  {
-    name: 'LinkedIn',
-    url: 'https://linkedin.com',
-    icon: 'Linkedin'
-  }
 ];

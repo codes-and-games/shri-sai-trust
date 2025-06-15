@@ -177,9 +177,9 @@ const ContactSection: React.FC = () => {
                       Our Location
                     </h4>
                     <p className="font-lato text-gray-600">
-                      123 Community Lane
+                      Paud Road, Kothrud
                       <br />
-                      Givingtown, GT 12345
+                      Pune, 411058
                     </p>
                   </div>
                 </div>
@@ -197,7 +197,7 @@ const ContactSection: React.FC = () => {
                         href="tel:+11234567890"
                         className="hover:text-primary-600 transition-colors"
                       >
-                        (123) 456-7890
+                        (+91) 98500 29119
                       </a>
                     </p>
                   </div>
@@ -216,7 +216,7 @@ const ContactSection: React.FC = () => {
                         href="mailto:info@givinghands.org"
                         className="hover:text-primary-600 transition-colors"
                       >
-                        info@givinghands.org
+                        shedgesagar2@gmail.com
                       </a>
                     </p>
                   </div>
@@ -224,18 +224,29 @@ const ContactSection: React.FC = () => {
               </div>
             </div>
 
-            <div className="rounded-lg overflow-hidden shadow-md h-80">
-              <iframe
-                title="GivingHands Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215573169617!2d-73.98582792422936!3d40.75802834284282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1689536619910!5m2!1sen!2sus"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+                <div className="bg-primary-50 border border-primary-200 py-8 px-6 mt-10 rounded-xl shadow-lg max-w-lg mx-auto">
+          <h2 className="text-2xl font-bold mb-4 text-primary-700 text-center">Support Us: Bank Details</h2>
+          <div className="space-y-2 text-primary-900 text-base">
+            <div>
+              <span className="font-semibold">Bank Name:</span> Janaseva Sahakari Bank Ltd., Hadapsar, Pune
             </div>
+            <div>
+              <span className="font-semibold">Account Name:</span> SHREE SAI EDUCATION TRUST
+            </div>
+            <div>
+              <span className="font-semibold">Account Number:</span> 15023004594
+            </div>
+            <div>
+              <span className="font-semibold">IFSC Code:</span> JANA0000015
+            </div>
+            <div>
+              <span className="font-semibold">Branch:</span> BHUSARI COLONY-KOTHRUD
+            </div>
+          </div>
+          <p className="mt-6 text-center text-primary-600 font-medium">
+            Your contribution empowers lives. Thank you for your support!
+          </p>
+        </div>
           </motion.div>
         </div>
       </div>

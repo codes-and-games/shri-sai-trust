@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Heart, Target, Users, GraduationCap } from 'lucide-react';
+import ourStory from '../../assets/jeevan-hyana-kalel-ho 2019/pustak-prakashan/Speech March-17.jpg'
 
 const AboutSection: React.FC = () => {
   const [ref, inView] = useInView({
@@ -26,25 +27,25 @@ const AboutSection: React.FC = () => {
       icon: <Heart className="h-10 w-10 text-accent-500" />,
       title: 'Our Mission',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'To serve humanity by delivering accessible, inclusive, and high-impact initiatives in health, education, and community welfare. We strive to empower underserved populations through compassionate service, collaboration, and sustainable support systems.',
     },
     {
       icon: <Target className="h-10 w-10 text-accent-500" />,
       title: 'Our Vision',
       description:
-        'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'To build a healthier, educated, and self-reliant society where no one is left behind—irrespective of their economic or social background. We envision a future where every individual has the opportunity to lead a dignified life supported by timely healthcare, quality education, and essential resources.',
     },
     {
       icon: <Users className="h-10 w-10 text-accent-500" />,
       title: 'Our Team',
       description:
-        'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+        'At the heart of our mission is a dedicated team of passionate individuals—community leaders, educators, healthcare professionals, and volunteers—united by a shared vision for equitable progress. Each member brings unique expertise and a deep commitment to service, working tirelessly to plan, execute, and scale impactful grassroots initiatives',
     },
     {
       icon: <GraduationCap className="h-10 w-10 text-accent-500" />,
       title: 'Our Impact',
       description:
-        'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Through a range of on-ground initiatives—like free health check-ups, vaccination drives, educational support, and food distribution—we’ve positively impacted thousands across Pune and surrounding areas. Our efforts have provided timely healthcare, sustained learning, and essential nourishment to those in need, driving meaningful grassroots change.',
     },
   ];
 
@@ -97,19 +98,7 @@ const AboutSection: React.FC = () => {
               Our Story
             </h3>
             <p className="font-lato text-gray-700 mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <p className="font-lato text-gray-700 mb-4">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-              culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <p className="font-lato text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-              doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
-              veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+              The Shree Sai Trust was founded with the vision of creating a positive impact on society through compassion and selfless service. Initially focused on providing healthcare, the Trust has since expanded its reach to include education, social welfare, and holistic community development. By offering essential medical care, running health camps, and supporting patients with chronic conditions, we aim to ensure access to healthcare for underserved populations. Beyond health, our educational initiatives empower individuals with scholarships, skills training, and support for rural schools, helping break the cycle of poverty. Our social welfare programs, including disaster relief and orphanage support, further our mission of community development and sustainability. With a commitment to mental, emotional, and spiritual well-being, we provide counseling and resilience-building services, recognizing that true well-being encompasses more than just physical health. As we continue to grow, we strive to build a compassionate society where every individual has the resources to lead a healthy, fulfilling life, and we invite others to join us in this mission.
             </p>
           </motion.div>
 
@@ -120,7 +109,7 @@ const AboutSection: React.FC = () => {
             className="rounded-lg overflow-hidden shadow-lg"
           >
             <img
-              src="https://images.pexels.com/photos/6647035/pexels-photo-6647035.jpeg"
+              src={ourStory}
               alt="Volunteers working together"
               className="w-full h-auto object-cover"
             />

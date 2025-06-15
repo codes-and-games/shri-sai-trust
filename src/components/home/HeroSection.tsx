@@ -115,7 +115,7 @@ const HeroSection: React.FC = () => {
           className="text-left"
         >
           <h1 className="font-montserrat font-bold text-4xl lg:text-5xl mb-4">
-            Shri Sai Education Trust
+            Shree Sai Education Trust
           </h1>
           <h2 className="font-montserrat text-xl text-primary-200 mb-6">
             Empowering Communities

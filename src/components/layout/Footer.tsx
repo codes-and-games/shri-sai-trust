@@ -27,8 +27,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <Heart className="h-8 w-8 text-primary-400" />
-              <span className="font-montserrat font-bold text-xl">Shri Sai Education Trust</span>
+              <span className="font-montserrat font-bold text-xl">Shree Sai Education Trust</span>
             </div>
             <p className="font-lato text-gray-300 mb-6">
               Making a difference through compassion, action, and community engagement.
@@ -47,6 +46,10 @@ const Footer: React.FC = () => {
                 </a>
               ))}
             </div>
+          </div>
+
+          <div className="col-span-1">
+            
           </div>
 
           <div className="col-span-1">
@@ -81,39 +84,18 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="col-span-1">
-            <h3 className="font-montserrat font-bold text-lg mb-4">Our Programs</h3>
-            <ul className="space-y-2">
-              <li className="font-lato text-gray-300 hover:text-primary-400 transition-colors">
-                Environmental Initiatives
-              </li>
-              <li className="font-lato text-gray-300 hover:text-primary-400 transition-colors">
-                Education Support
-              </li>
-              <li className="font-lato text-gray-300 hover:text-primary-400 transition-colors">
-                Community Development
-              </li>
-              <li className="font-lato text-gray-300 hover:text-primary-400 transition-colors">
-                Healthcare Access
-              </li>
-              <li className="font-lato text-gray-300 hover:text-primary-400 transition-colors">
-                Volunteer Opportunities
-              </li>
-            </ul>
-          </div>
-
-          <div className="col-span-1">
             <h3 className="font-montserrat font-bold text-lg mb-4">Contact Us</h3>
             <address className="not-italic">
-              <p className="font-lato text-gray-300 mb-2">123 Community Lane</p>
-              <p className="font-lato text-gray-300 mb-2">Givingtown, GT 12345</p>
+              <p className="font-lato text-gray-300 mb-2">Paud Road, Kothrud</p>
+              <p className="font-lato text-gray-300 mb-2">Pune, MH 411058</p>
               <p className="font-lato text-gray-300 mb-2">
                 <a href="tel:+11234567890" className="hover:text-primary-400 transition-colors">
-                  (123) 456-7890
+                  (+91) 98500 29119
                 </a>
               </p>
               <p className="font-lato text-gray-300">
                 <a href="mailto:info@givinghands.org" className="hover:text-primary-400 transition-colors">
-                  info@givinghands.org
+                  shedgesagar2@gmail.com
                 </a>
               </p>
             </address>
@@ -122,7 +104,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-navy-600 mt-8 pt-8 text-center">
           <p className="font-lato text-gray-400">
-            &copy; {new Date().getFullYear()} GivingHands NGO. All rights reserved.
+            &copy; {new Date().getFullYear()} Made with love <Heart className="inline h-4 w-4 text-red-500" /> 
           </p>
         </div>
       </div>

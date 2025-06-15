@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
         >
           <Heart className="h-8 w-8 text-primary-500" />
           <span className="font-montserrat font-bold text-xl text-navy-600">
-            Shri Sai Education Trust
+            Shree Sai Education Trust
           </span>
         </Link>
 

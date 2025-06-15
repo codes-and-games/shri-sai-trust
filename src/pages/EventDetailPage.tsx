@@ -30,14 +30,7 @@ const EventDetailPage: React.FC = () => {
   }, [id]);
 
   // Format the date
-  const formatDate = (dateString: string) => {
-    const options: Intl.DateTimeFormatOptions = { 
-      year: 'numeric', 
-      month: 'long', 
-      day: 'numeric' 
-    };
-    return new Date(dateString).toLocaleDateString('en-US', options);
-  };
+
 
   // Image gallery navigation
   const nextImage = () => {
@@ -113,19 +106,6 @@ const EventDetailPage: React.FC = () => {
                   {event.title}
                 </h1>
                 <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
-                  <div className="flex items-center text-primary-200">
-                    <Calendar className="h-5 w-5 mr-2" />
-                    <span className="font-lato">{formatDate(event.date)}</span>
-                  </div>
-                  <div className="flex items-center text-primary-200">
-                    <MapPin className="h-5 w-5 mr-2" />
-                    <span className="font-lato">{event.location}</span>
-                  </div>
-                  <div className="py-1 px-3 bg-primary-500 rounded-full">
-                    <span className="font-lato text-sm text-white capitalize">
-                      {event.category}
-                    </span>
-                  </div>
                 </div>
               </motion.div>
             </div>
@@ -221,29 +201,7 @@ const EventDetailPage: React.FC = () => {
                 className="space-y-8"
               >
                 {/* Event Actions */}
-                <div className="bg-white rounded-lg shadow-md p-6">
-                  <h3 className="font-montserrat font-bold text-xl text-navy-700 mb-4">
-                    Get Involved
-                  </h3>
-                  <div className="space-y-4">
-                    <a
-                      href="#volunteer"
-                      className="block w-full bg-primary-500 hover:bg-primary-600 text-white font-lato py-3 px-4 rounded-md text-center transition-colors"
-                    >
-                      Volunteer
-                    </a>
-                    <a
-                      href="#donate"
-                      className="block w-full bg-accent-500 hover:bg-accent-600 text-white font-lato py-3 px-4 rounded-md text-center transition-colors"
-                    >
-                      Donate
-                    </a>
-                    <button className="flex items-center justify-center w-full gap-2 border border-gray-300 hover:bg-gray-50 text-navy-700 font-lato py-3 px-4 rounded-md text-center transition-colors">
-                      <Share2 className="h-5 w-5" />
-                      <span>Share Event</span>
-                    </button>
-                  </div>
-                </div>
+                
 
                 {/* Related Content */}
                 <div className="bg-white rounded-lg shadow-md p-6">
@@ -272,9 +230,6 @@ const EventDetailPage: React.FC = () => {
                               <h4 className="font-montserrat font-semibold text-navy-700 group-hover:text-primary-600 transition-colors">
                                 {relatedEvent.title}
                               </h4>
-                              <p className="font-lato text-sm text-gray-600">
-                                {formatDate(relatedEvent.date)}
-                              </p>
                             </div>
                           </div>
                         </Link>

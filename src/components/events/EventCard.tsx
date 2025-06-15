@@ -11,14 +11,7 @@ interface EventCardProps {
 
 const EventCard: React.FC<EventCardProps> = ({ event, index }) => {
   // Format the date
-  const formatDate = (dateString: string) => {
-    const options: Intl.DateTimeFormatOptions = { 
-      year: 'numeric', 
-      month: 'long', 
-      day: 'numeric' 
-    };
-    return new Date(dateString).toLocaleDateString('en-US', options);
-  };
+  
 
   return (
     <motion.div
@@ -43,15 +36,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, index }) => {
           {event.title}
         </h3>
         
-        <div className="flex items-center text-gray-600 mb-3">
-          <Calendar className="h-4 w-4 mr-2" />
-          <span className="font-lato text-sm">{formatDate(event.date)}</span>
-        </div>
         
-        <div className="flex items-center text-gray-600 mb-4">
-          <MapPin className="h-4 w-4 mr-2" />
-          <span className="font-lato text-sm">{event.location}</span>
-        </div>
         
         <p className="font-lato text-gray-700 mb-6 line-clamp-3">
           {event.shortDescription}

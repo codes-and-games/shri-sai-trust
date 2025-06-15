@@ -26,14 +26,13 @@ const HomePage: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>GivingHands NGO - Empowering Communities, Changing Lives</title>
+        <title>Shree Sai Education Trust</title>
         <meta name="description" content="GivingHands is a non-profit organization dedicated to making a positive impact in communities through sustainable initiatives, education, and compassionate action." />
       </Helmet>
 
       <main>
         <HeroSection />
         <AboutSection />
-        <TestimonialsSection />
         <GallerySection />
         <ContactSection />
       </main>

@@ -8,6 +8,40 @@ import ScholarshipImage4 from '../assets/education-scholarship/2023/K Oct-23.jpg
 import ScholarshipImage5 from '../assets/education-scholarship/2023/K2 Oct -23.jpg';
 import ScholarshipImage6 from '../assets/education-scholarship/2023/K3 Oct-23.jpg';
 
+import hostel_cover_img from '../assets/July_2025_update/HOSTEL-PAMPLET.jpg';
+import hostel_img1 from '../assets/July_2025_update/IMG_0622.jpg';
+import hostel_img2 from '../assets/July_2025_update/IMG_0628.jpg';
+import hostel_img3 from '../assets/July_2025_update/IMG_0636.jpg';
+import hostel_img4 from '../assets/July_2025_update/IMG_0642.jpg';
+import hostel_img5 from '../assets/July_2025_update/IMG_0647.jpg';
+import hostel_img6 from '../assets/July_2025_update/IMG_0649.jpg';
+import hostel_img7 from '../assets/July_2025_update/IMG_0653.jpg';
+import hostel_img8 from '../assets/July_2025_update/IMG_0654.jpg';
+import hostel_img10 from '../assets/July_2025_update/IMG_0659.jpg';
+import hostel_img11 from '../assets/July_2025_update/IMG_0660.jpg';
+import hostel_img12 from '../assets/July_2025_update/IMG_0662.jpg';
+import hostel_img13 from '../assets/July_2025_update/IMG_0664.jpg';
+import hostel_img14 from '../assets/July_2025_update/IMG_0666.jpg';
+import hostel_img15 from '../assets/July_2025_update/IMG_0668.jpg';
+import hostel_img16 from '../assets/July_2025_update/IMG_0671.jpg';
+import hostel_img17 from '../assets/July_2025_update/IMG_0672.jpg';
+import hostel_img18 from '../assets/July_2025_update/IMG_0673.jpg';
+import hostel_img19 from '../assets/July_2025_update/IMG_0674.jpg';
+import hostel_img20 from '../assets/July_2025_update/IMG_0680.jpg';
+import hostel_img21 from '../assets/July_2025_update/IMG_0684.jpg';
+import hostel_img22 from '../assets/July_2025_update/IMG_0685.jpg';
+import hostel_img23 from '../assets/July_2025_update/IMG_0700.jpg';
+import hostel_img24 from '../assets/July_2025_update/IMG_0701.jpg';
+import hostel_img25 from '../assets/July_2025_update/IMG_0727.jpg';
+import hostel_img26 from '../assets/July_2025_update/IMG_0728.jpg';
+import hostel_img27 from '../assets/July_2025_update/IMG_0734.jpg';
+import hostel_img28 from '../assets/July_2025_update/IMG_0747.jpg';
+import hostel_img29 from '../assets/July_2025_update/IMG_0748.jpg';
+import hostel_img30 from '../assets/July_2025_update/IMG_0763.jpg';
+import hostel_img31 from '../assets/July_2025_update/IMG_0764.jpg';
+import hostel_img32 from '../assets/July_2025_update/IMG_0766.jpg';
+
+
 import hostelimage from '../assets/education-scholarship/2021/hostel-for-poor/K-Nov-22.jpg';
 import hostelimagetwo from '../assets/education-scholarship/2021/hostel-for-poor/K1-Nov-22.jpg';
 import hostelimagethree from '../assets/education-scholarship/2021/hostel-for-poor/NS-Nov-23.jpg';
@@ -45,8 +79,53 @@ import freeStudyRoom from '../assets/free-study-rooms/2023/E Feb-4.jpg'
 import vaccination from '../assets/vaccination/2021/K Aug-26.jpg'
 
 export const events: EventType[] = [
+
   {
     id: '1',
+    title: 'Student Hostel for Underprivileged at Kothrud',
+    date: 'July 2025',
+    shortDescription: 'श्री साई एज्युकेशन ट्रस्टचे वै. आबाजी बाबुराव वाशिवले वसतिगृह हे पुण्यात ग्रामीण गरजू विद्यार्थ्यांसाठी अल्पदरात निवास, भोजन व व्यक्तिमत्त्व विकास सुविधा देते. संस्थेचे ध्येय – भविष्यासाठी विद्यार्थी घडवणे.',
+    description: 'आम्ही विद्यार्थ्यांचे भविष्य घडवत नाहीत तर भविष्यासाठी विद्यार्थी घडवितो..पुणे येथे 11वी च्या पुढे उच्चशिक्षणासाठी येणाऱ्या ग्रामीण भागातील गरजू आणि होतकरू विद्यार्थ्यांना अल्पदरात निवास, भोजनासाठी येथील विद्यार्थी श्री साई एज्युकेशन ट्रस्ट संचालित वै. आबाजी बाबुराव वाशिवले निराधार व गरजू मुलांसाठी वसतिगृहामध्ये प्रवेश देण्यास सुरुवात झाली आहे. आणि व्यक्तिमत्त्व विकासासाठी ही संस्था काम करीत आहे. विद्यार्थ्यांचे भविष्य घडवत नाहीत तर भविष्यासाठी विद्यार्थी घडवितात हे या संस्थेचे मुळ उदिष्ट आहे. संस्थेचे कामकाज समाजातून मिळणाऱ्या आर्थिक मदतीवर सुरू असल्याने येथील नियमांची काटेकोर अमंलबजावणी होते',
+    coverImage: hostel_cover_img,
+    gallery: [
+      hostel_img1,
+      hostel_img2,
+      hostel_img3,
+      hostel_img4,
+      hostel_img5,
+      hostel_img6,
+      hostel_img7,
+      hostel_img8,
+      hostel_img10,
+      hostel_img11,
+      hostel_img12,
+      hostel_img13,
+      hostel_img14,
+      hostel_img15,
+      hostel_img16,
+      hostel_img17,
+      hostel_img18,
+      hostel_img19,
+      hostel_img20,
+      hostel_img21, 
+      hostel_img22,
+      hostel_img23,
+      hostel_img24,
+      hostel_img25,
+      hostel_img26,
+      hostel_img27,
+      hostel_img28,
+      hostel_img29,
+      hostel_img30,
+      hostel_img31,
+      hostel_img32
+    ],
+    location: 'Kolhapur, India',
+    category: 'education'
+  },
+
+  {
+    id: '2',
     title: 'Scholarship for Underprivileged Students',
     date: 'August 2021, August 2022, Ocotber 2023 & February 2025',
     shortDescription: 'Scholarship provided for various higher education courses.',
@@ -65,7 +144,7 @@ export const events: EventType[] = [
     category: 'education'
   },
   {
-    id: '2',
+    id: '3',
     title: 'Student hostels and accommodation',
     date: 'November 2021',
     shortDescription: 'A new hostel for underprivileged students has been inaugurated in Panshet, Pune by Shri Sai Education Trust.',
@@ -83,7 +162,7 @@ export const events: EventType[] = [
     category: 'education'
   },
   {
-    id: '3',
+    id: '4',
     title: 'Educational Aid for COVID-Orphaned Students',
     date: 'September 2021',
     shortDescription: 'Shri Sai Education Trust has extended educational support to 23 students who lost their parents due to COVID-19, providing each with ₹25,000 to aid in their higher education journey.',
@@ -96,7 +175,7 @@ export const events: EventType[] = [
     category: 'education'
   },
   {
-    id: '4',
+    id: '5',
     title: 'Blood Donation Camp',
     date: 'Spetember 2024',
     shortDescription: 'Shri Sai Education Trust, Pune organized a grand blood donation camp on the birthday of Mr. Sagar Shedge to promote the noble cause of saving lives through blood donation.',
@@ -110,7 +189,7 @@ export const events: EventType[] = [
     category: 'health'
   },
   {
-    id: '5',
+    id: '6',
     title: 'Cloth & Ration Distribution Camp',
     date: 'August 2024',
     shortDescription: 'Shri Sai Education Trust, Pune organized a grand blood donation camp on the birthday of Mr. Sagar Shedge to promote the noble cause of saving lives through blood donation.',
@@ -126,7 +205,7 @@ export const events: EventType[] = [
     category: 'Distribution Camp'
   },
   {
-    id: '6',
+    id: '7',
     title: 'Flood Relief Camp',
     date: 'August 2024',
     shortDescription: 'Shree Sai Education Trust, Pune launched a humanitarian aid drive titled "Ek Haath Maanuski Cha" to help flood-affected people in Satara, Sangli, Kolhapur, Chiplun, and Raigad by collecting and distributing essential supplies.',
@@ -139,7 +218,7 @@ export const events: EventType[] = [
     category: 'Flood Relief Camp'
   },   
   {
-    id: '7',
+    id: '8',
     title: 'Ration Distribution Camp',
     date: 'August 2024',
     shortDescription: 'Shree Sai Education Trust, Pune organized a large-scale food distribution drive to provide freshly cooked meals and essential groceries to underprivileged families and daily wage earners affected by economic hardships.',
@@ -158,7 +237,7 @@ export const events: EventType[] = [
     category: 'Distribution Camp'
   },   
   {
-    id: '8',
+    id: '9',
     title: 'Subsidized Health Check-up Camp',
     date: 'August 2024',
     shortDescription: 'Shree Sai Education Trust, Pune organized a comprehensive health check-up camp at a highly subsidized rate, offering critical diagnostic tests to promote early detection and better public health.',
@@ -173,7 +252,7 @@ export const events: EventType[] = [
     category: 'health'
   },   
   {
-    id: '9',
+    id: '10',
     title: 'Free Study Room for Students',
     date: 'August 2024',
     shortDescription: 'Shree Sai Education Trust and Ramkrishna Pratishthan jointly organized a free study room facility for students of Classes 10 to 12, providing a disciplined and distraction-free environment to help them focus on their board exam preparation.',
@@ -186,7 +265,7 @@ export const events: EventType[] = [
     category: 'education'
   }, 
   {
-    id: '10',
+    id: '11',
     title: 'Free Vaccination Camp in Kothrud',
     date: 'August 2024',
     shortDescription: 'Reliance Foundation and Shree Sai Education Trust jointly organized a free vaccination camp for the public in Kothrud, aiming to promote community health and prevent vaccine-preventable diseases.',
@@ -198,6 +277,7 @@ export const events: EventType[] = [
     location: 'Kolhapur, India',
     category: 'health'
   }, 
+   
 
 ];
 

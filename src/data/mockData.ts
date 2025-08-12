@@ -9,7 +9,7 @@ import ScholarshipImage5 from '../assets/education-scholarship/2023/K2 Oct -23.j
 import ScholarshipImage6 from '../assets/education-scholarship/2023/K3 Oct-23.jpg';
 
 import hostel_cover_img from '../assets/July_2025_update/HOSTEL-PAMPLET.jpg';
-import hostel_img1 from '../assets/July_2025_update/1.jpg';
+import hostel_img1 from '../assets/July_2025_update/1.JPG';
 import hostel_img2 from '../assets/July_2025_update/2.jpg';
 import hostel_img3 from '../assets/July_2025_update/3.jpg';
 import hostel_img4 from '../assets/July_2025_update/4.jpg';

@@ -1,6 +1,7 @@
 {
   "name": "ngo-website",
   "private": true,
+  "homepage": "https://codes-and-games.github.io/shri-sai-trust",
   "version": "0.1.0",
   "type": "module",
   "scripts": {
@@ -11,6 +12,7 @@
   },
   "dependencies": {
     "framer-motion": "^10.18.0",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

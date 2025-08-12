@@ -1,7 +1,6 @@
 {
   "name": "ngo-website",
   "private": true,
-  "homepage": "https://codes-and-games.github.io/shri-sai-trust",
   "version": "0.1.0",
   "type": "module",
   "scripts": {

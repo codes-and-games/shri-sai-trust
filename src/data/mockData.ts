@@ -9,37 +9,37 @@ import ScholarshipImage5 from '../assets/education-scholarship/2023/K2 Oct -23.j
 import ScholarshipImage6 from '../assets/education-scholarship/2023/K3 Oct-23.jpg';
 
 import hostel_cover_img from '../assets/July_2025_update/HOSTEL-PAMPLET.jpg';
-import hostel_img1 from '../assets/July_2025_update/IMG_0622.jpg';
-import hostel_img2 from '../assets/July_2025_update/IMG_0628.jpg';
-import hostel_img3 from '../assets/July_2025_update/IMG_0636.jpg';
-import hostel_img4 from '../assets/July_2025_update/IMG_0642.jpg';
-import hostel_img5 from '../assets/July_2025_update/IMG_0647.jpg';
-import hostel_img6 from '../assets/July_2025_update/IMG_0649.jpg';
-import hostel_img7 from '../assets/July_2025_update/IMG_0653.jpg';
-import hostel_img8 from '../assets/July_2025_update/IMG_0654.jpg';
-import hostel_img10 from '../assets/July_2025_update/IMG_0659.jpg';
-import hostel_img11 from '../assets/July_2025_update/IMG_0660.jpg';
-import hostel_img12 from '../assets/July_2025_update/IMG_0662.jpg';
-import hostel_img13 from '../assets/July_2025_update/IMG_0664.jpg';
-import hostel_img14 from '../assets/July_2025_update/IMG_0666.jpg';
-import hostel_img15 from '../assets/July_2025_update/IMG_0668.jpg';
-import hostel_img16 from '../assets/July_2025_update/IMG_0671.jpg';
-import hostel_img17 from '../assets/July_2025_update/IMG_0672.jpg';
-import hostel_img18 from '../assets/July_2025_update/IMG_0673.jpg';
-import hostel_img19 from '../assets/July_2025_update/IMG_0674.jpg';
-import hostel_img20 from '../assets/July_2025_update/IMG_0680.jpg';
-import hostel_img21 from '../assets/July_2025_update/IMG_0684.jpg';
-import hostel_img22 from '../assets/July_2025_update/IMG_0685.jpg';
-import hostel_img23 from '../assets/July_2025_update/IMG_0700.jpg';
-import hostel_img24 from '../assets/July_2025_update/IMG_0701.jpg';
-import hostel_img25 from '../assets/July_2025_update/IMG_0727.jpg';
-import hostel_img26 from '../assets/July_2025_update/IMG_0728.jpg';
-import hostel_img27 from '../assets/July_2025_update/IMG_0734.jpg';
-import hostel_img28 from '../assets/July_2025_update/IMG_0747.jpg';
-import hostel_img29 from '../assets/July_2025_update/IMG_0748.jpg';
-import hostel_img30 from '../assets/July_2025_update/IMG_0763.jpg';
-import hostel_img31 from '../assets/July_2025_update/IMG_0764.jpg';
-import hostel_img32 from '../assets/July_2025_update/IMG_0766.jpg';
+import hostel_img1 from '../assets/July_2025_update/1.jpg';
+import hostel_img2 from '../assets/July_2025_update/2.jpg';
+import hostel_img3 from '../assets/July_2025_update/3.jpg';
+import hostel_img4 from '../assets/July_2025_update/4.jpg';
+import hostel_img5 from '../assets/July_2025_update/5.jpg';
+// import hostel_img6 from '../assets/July_2025_update/IMG_0649.jpg';
+// import hostel_img7 from '../assets/July_2025_update/IMG_0653.jpg';
+// import hostel_img8 from '../assets/July_2025_update/IMG_0654.jpg';
+// import hostel_img10 from '../assets/July_2025_update/IMG_0659.jpg';
+// import hostel_img11 from '../assets/July_2025_update/IMG_0660.jpg';
+// import hostel_img12 from '../assets/July_2025_update/IMG_0662.jpg';
+// import hostel_img13 from '../assets/July_2025_update/IMG_0664.jpg';
+// import hostel_img14 from '../assets/July_2025_update/IMG_0666.jpg';
+// import hostel_img15 from '../assets/July_2025_update/IMG_0668.jpg';
+// import hostel_img16 from '../assets/July_2025_update/IMG_0671.jpg';
+// import hostel_img17 from '../assets/July_2025_update/IMG_0672.jpg';
+// import hostel_img18 from '../assets/July_2025_update/IMG_0673.jpg';
+// import hostel_img19 from '../assets/July_2025_update/IMG_0674.jpg';
+// import hostel_img20 from '../assets/July_2025_update/IMG_0680.jpg';
+// import hostel_img21 from '../assets/July_2025_update/IMG_0684.jpg';
+// import hostel_img22 from '../assets/July_2025_update/IMG_0685.jpg';
+// import hostel_img23 from '../assets/July_2025_update/IMG_0700.jpg';
+// import hostel_img24 from '../assets/July_2025_update/IMG_0701.jpg';
+// import hostel_img25 from '../assets/July_2025_update/IMG_0727.jpg';
+// import hostel_img26 from '../assets/July_2025_update/IMG_0728.jpg';
+// import hostel_img27 from '../assets/July_2025_update/IMG_0734.jpg';
+// import hostel_img28 from '../assets/July_2025_update/IMG_0747.jpg';
+// import hostel_img29 from '../assets/July_2025_update/IMG_0748.jpg';
+// import hostel_img30 from '../assets/July_2025_update/IMG_0763.jpg';
+// import hostel_img31 from '../assets/July_2025_update/IMG_0764.jpg';
+// import hostel_img32 from '../assets/July_2025_update/IMG_0766.jpg';
 
 
 import hostelimage from '../assets/education-scholarship/2021/hostel-for-poor/K-Nov-22.jpg';
@@ -93,32 +93,32 @@ export const events: EventType[] = [
       hostel_img3,
       hostel_img4,
       hostel_img5,
-      hostel_img6,
-      hostel_img7,
-      hostel_img8,
-      hostel_img10,
-      hostel_img11,
-      hostel_img12,
-      hostel_img13,
-      hostel_img14,
-      hostel_img15,
-      hostel_img16,
-      hostel_img17,
-      hostel_img18,
-      hostel_img19,
-      hostel_img20,
-      hostel_img21, 
-      hostel_img22,
-      hostel_img23,
-      hostel_img24,
-      hostel_img25,
-      hostel_img26,
-      hostel_img27,
-      hostel_img28,
-      hostel_img29,
-      hostel_img30,
-      hostel_img31,
-      hostel_img32
+      // hostel_img6,
+      // hostel_img7,
+      // hostel_img8,
+      // hostel_img10,
+      // hostel_img11,
+      // hostel_img12,
+      // hostel_img13,
+      // hostel_img14,
+      // hostel_img15,
+      // hostel_img16,
+      // hostel_img17,
+      // hostel_img18,
+      // hostel_img19,
+      // hostel_img20,
+      // hostel_img21, 
+      // hostel_img22,
+      // hostel_img23,
+      // hostel_img24,
+      // hostel_img25,
+      // hostel_img26,
+      // hostel_img27,
+      // hostel_img28,
+      // hostel_img29,
+      // hostel_img30,
+      // hostel_img31,
+      // hostel_img32
     ],
     location: 'Kolhapur, India',
     category: 'education'
